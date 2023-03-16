@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+header{
+	background-color: #d14635;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header h1{
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 20px solid white;
+	<!-- originally the border radius was 150 px
+	but the border caused the picture to look square.
+	we adjusted the border-radius to 170 px to make
+	sure the size of the border fits the size of the img -->
+
+
+}
