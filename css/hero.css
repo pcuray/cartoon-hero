@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 
 }
 
@@ -9,21 +11,90 @@ header{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+
+}
+
+h1, h2{
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+h2{
+	font-size: 30px;
+	color: #e70c19;
+	margin: 40px 0 10px;
+
+}
+
+a{
+	color: #e70c19;
+
+}
+
+a:hover{
+	/*this is writing a pseudoclass on an anchor element*/
+	/*thos declares that when we hover on any a element the color will change*/
+	color: white;
+	background-color: #483a94;
+
 }
 
 header h1{
 	color: white;
-	font-family: Helvetica, Arial, sans-serif;
+	font-size: 50px;
+
 }
 
 header img{
 	border-radius: 170px;
 	width: 300px;
 	border: 20px solid white;
-	<!-- originally the border radius was 150 px
+	/*originally the border radius was 150 px
 	but the border caused the picture to look square.
 	we adjusted the border-radius to 170 px to make
-	sure the size of the border fits the size of the img -->
+	sure the size of the border fits the size of the img */
 
+}
 
+main{
+	max-width:800px;
+	margin: 0 auto ;
+	padding:20px;
+	/*margin is helpful for centering items.
+	auto centers kt from the left and right.
+	padding has all padding to zero, 
+	or just go for top and bottom with the first value,
+	and left and right with the second value,
+	or just go for right, top, bottom, left*/
+}
+
+main img{
+	max-width: 100%;
+}
+
+footer{
+	background-color: #d14635;
+	text-align:center;
+	color: white;
+	padding: 50px;
+
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color:#999999;
+	font-style: italic;
+	margin-top: 0;
 }
